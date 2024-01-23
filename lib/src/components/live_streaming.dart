@@ -328,10 +328,10 @@ class _ZegoUIKitPrebuiltLiveStreamingState
       tag: 'live streaming',
       subTag: 'prebuilt',
     );
-    // final videoConfig =
-    //     ZegoVideoConfig.preset(widget.config.videoConfig.preset);
+    final videoConfig =
+        ZegoVideoConfig.preset(widget.config.videoConfig.preset);
 
-    final ZegoUIKitVideoConfig videoConfig = ZegoUIKitVideoConfig.preset1080P();
+    // final ZegoUIKitVideoConfig videoConfig = ZegoUIKitVideoConfig.preset1080P();
 
     if (null != widget.config.videoConfig.bitrate) {
       videoConfig.bitrate = widget.config.videoConfig.bitrate!;
