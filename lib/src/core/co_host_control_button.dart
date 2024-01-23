@@ -116,8 +116,9 @@ class _ZegoCoHostControlButtonState extends State<ZegoCoHostControlButton> {
       buttonSize: Size(330.zR, 72.zR),
       iconSize: Size(48.zR, 48.zR),
       iconTextSpacing: 12.zR,
-      text: widget.requestCoHostButtonText ??
-          widget.translationText.requestCoHostButton,
+      text: "sss",
+      // text: widget.requestCoHostButtonText ??
+      //     widget.translationText.requestCoHostButton,
       textStyle: buttonTextStyle,
       verticalLayout: false,
       onWillPressed: () async {
